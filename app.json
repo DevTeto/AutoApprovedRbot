@@ -7,7 +7,7 @@
         "Pyrogram "
     ],
     
-    "repository": "https://github.com/PyAaditya/AutoApprove",
+    "repository": "https://github.com/DevTeto/AutoApprovedRbot",
     "logo":"https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg",   
     
     "env": {
@@ -31,16 +31,16 @@
     "CHANNEL": {
       "description": "Enter your Force Subscribe channel Username without @",
       "required": false,
-      "value":"ZenBotX"
+      "value":"WX_PM"
     },
     "FSUB": {
-      "description": "True For Enabling Else False",
+      "description": "هذا الامر من يعرفه هو مطور الملف فقط",
       "required": true
     },
     "OWNER_ID": {
       "description": "Enter Bot Owners IDS",
       "required": true,
-      "value":"6542673293"
+      "value":"6352598131"
     }
         
   },
