@@ -68,7 +68,7 @@ async def start(app: Client, msg: Message):
 async def gc(app: Client, msg: Message):
     add_group(msg.chat.id)
     add_user(msg.from_user.id)
-    await msg.reply_text(text=f"**⎉︙ ي عـزيزي : {msg.from_user.mention}\n\n- أرسلي خاص للحصول علي معلومات اكثر...**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("‹ اطغط هنا للبدأ ›", url=f"https://t.me/{app.me.username}?start=start")]]))
+    await msg.reply_text(text=f"⎉︙ ي عـزيزي : {msg.from_user.mention}\n\n- أرسلي خاص للحصول علي معلومات اكثر...", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("‹ اطغط هنا للبدأ ›", url=f"https://t.me/{app.me.username}?start=start")]]))
 
 #stats
 @app.on_message(filters.command("stats") & filters.user(config.OWNER_ID))
