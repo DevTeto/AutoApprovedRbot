@@ -48,7 +48,7 @@ async def start(app: Client, msg: Message):
     else:
         await msg.reply_photo(
             photo="https://telegra.ph/file/f394c45e5f2f147a37090.jpg",
-            caption=f"⎉︙أهـلاً عـزيزي : {msg.from_user.mention}\n\n⎉︙اسمـي {app.me.mention}\n⎉︙استطيع قبول اي طلب انضمام بسهوله\n⎉︙فقط ارفعني مشرف واستمتع"
+            caption=f"⎉︙أهـلاً عـزيزي : {msg.from_user.mention}\n\n⎉︙اسمـي {app.me.mention}\n⎉︙استطيع قبول اي طلب انضمام بسهوله\n⎉︙فقط ارفعني مشرف واستمتع",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -116,3 +116,4 @@ try:
     app.run()
 except:
     traceback.print_exc()
+    
